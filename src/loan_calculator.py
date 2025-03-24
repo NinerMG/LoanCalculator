@@ -20,8 +20,6 @@ class LoanCalculator:
         else:
             return "Wrong choice"
 
-
-
     def calculating_the_number_of_monthly_payments(self):
         principal = int(input("principal="))
         payment = int(input("payment="))
